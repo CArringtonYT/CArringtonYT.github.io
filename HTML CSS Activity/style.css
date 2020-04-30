@@ -1,0 +1,40 @@
+body {
+	font-size: 50px;
+	background-color: orange;
+}
+
+#blue {
+	color: blue;
+}
+
+.purple {
+	color: purple;
+}
+
+#red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.white {
+	color: white;
+}
+
+.blackBackground {
+	background-color: black;
+}
+
+.alignLeft{
+	text-align: left;
+}
+
+.alignCenter{
+	text-align: center;
+}
+
+.alignRight{
+	text-align: right;
+}
