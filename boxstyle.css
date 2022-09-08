@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.greenbox{
+    background: green;
+}
+
+.redbox{
+    background: red;
+}
+
+.bluebox{
+    background: blue;
+}
+
+.violetbox{
+    background: violet;
+}
+
+.yellowbox{
+    background: yellow;
+}
+
+@media (max-width: 600px)
+{
+    .greenbox{
+        background: orange;
+    }
+
+    /* make the redbox show a circle */
+    .redbox{
+        border-radius: 50%; /* rounds the edges of the square */
+        border: solid 2px black; /* draws a black border around the circle */
+    }
+
+    /* make the bluebox do something fun! */
+    .bluebox{
+        transform: rotate(360deg);
+        transition: transform 3.0s ease-in;
+    }
+
+    .violetbox{
+        display: none;
+    }
+
+}
